@@ -40,11 +40,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 - [ ] What is the purpose of using _sessions_?
 
+    -sessions are one of two ways to persist credentials between requests(the other being tokens). Sessions/cookies have its own database and you can do more with them, but for simple authorization jwt tokens are generally used
+
 - [ ] What does bcrypt do to help us store passwords in a secure manner.
+
+    -bcrypt allows us to hash passwords so the raw information is not stored in the database. 
 
 - [ ] What does bcrypt do to slow down attackers?
 
+    -bcrypt reiterates ('salts') the hashes. You can set this when using .hashSync(pass, n) where bcrypt hashes the pass 2^nth times
+
 - [ ] What are the three parts of the JSON Web Token?
+
+    -payload, secret, option
 
 ## Minimum Viable Product
 

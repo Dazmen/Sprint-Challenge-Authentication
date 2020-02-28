@@ -19,4 +19,4 @@ describe('jokes router', function(){
                 expect(res.status).toBe(401)
             })
     })
-})
+});

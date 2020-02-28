@@ -7,7 +7,7 @@ describe('auth-router', function(){
             return request(server)
                  .post('/api/auth/register')
                  .send({
-                     username: 'testing6',
+                     username: 'testing167',
                      password: 'tests'
                  })
                  .then(res => {
